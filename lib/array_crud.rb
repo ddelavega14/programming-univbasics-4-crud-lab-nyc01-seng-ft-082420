@@ -6,8 +6,8 @@ def create_an_array
   superheroes = ["iron man", "hulk", "deadpool", "miss marvel"]
 end
 
-def add_element_to_end_of_array
-  superheroes.shift("bishop")
+def add_element_to_end_of_array(array, element)
+  superheroes.shift(element)
 end
 
 def add_element_to_start_of_array(array, element)
